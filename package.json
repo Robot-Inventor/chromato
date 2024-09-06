@@ -1,0 +1,43 @@
+{
+  "name": "chromato",
+  "version": "0.0.0",
+  "description": "Modern and simple color picker written in TypeScript. Chromato provides a Web Component that can be used with any framework.",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "./dist/"
+  ],
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "lint": "eslint ./src/**/*.ts",
+    "format": "prettier --write ./src/**/*",
+    "format:check": "prettier --check ./src/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robot-Inventor/chromato.git"
+  },
+  "keywords": [
+    "typescript",
+    "color picker"
+  ],
+  "author": "Robot-Inventor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/chromato/issues"
+  },
+  "homepage": "https://github.com/Robot-Inventor/chromato#readme",
+  "devDependencies": {
+    "@robot-inventor/eslint-config": "^6.0.1",
+    "@robot-inventor/tsconfig-base": "^1.1.0",
+    "eslint": "^9.9.1",
+    "lit": "^3.2.0",
+    "prettier": "^3.3.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
